@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="style.css" title="external style sheet">
+</head>
+<body>
+<h1 class="head">
+Registration
+</h1>
+
+<div class="form">
+	<form action="ph.php" name ="register" method="POST">
+	<div class="name">
+		 <input id="n1" type="text"  name="firstName"  placeholder="First name"   required><br>
+     	 <input id="n2" type="text" name="lastName" placeholder="Last name"  required><br>
+
+	</div>
+	<div id="gender">
+		<input id="m" type="radio" name="gender" value="male" > Male<br>
+  		 <input id="f" type="radio" name="gender" value="female" > Female<br>
+	</div>	
+	
+	<div class="email1">
+		 <input id="email" type="email" name="emailId"   placeholder="email id" required><br>
+	</div>
+	<div class="pass">
+		<input id="password" type="password" name="password" placeholder="*******"  required><br>
+
+        <input id="cpassword" type="password" name="password" placeholder="confirm password" required><br>
+
+	</div>
+	<div class="submit">
+		 <input type="submit" id="b1" name="button" value="Submit" onclick="ok()">
+	</div>
+		
+		       
+
+ 	</form>
+
+</div>
+
+</body>
+</html>
